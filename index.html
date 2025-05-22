@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header class="header">
+      <div class="logo">Portfolio</div>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#background" style="--i:3">Background</a>
+            <a href="#certificate" style="--i:4">Certificate</a>
+            <a href="#contacts" style="--i:5">Contacts</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="profile-container">
+        <div class="image-wrapper">
+            <img src="me.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Khaikhea Teves</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>
+                I have a strong passion for learning and growth. I'm currently focused on building
+                my programming skills and exploring the world of web development, with the goal of 
+                becoming a skilled and creative web developer.</p>
+
+                <div class="sci">
+                    <a href="https://github.com/jeymsuuu" target="_blank" style="--i:7">
+                        <i class="fa-brands fa-github"></i></a>
+                    <a href="https://web.facebook.com/pierre.asche" target="_blank" style="--i:8">
+                        <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/pyerie/" target="_blank" style="--i:9">
+                        <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#contacts" target="_blank" style="--i:10">
+                        <i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="https://drive.google.com/drive/folders/1S1OXW6Bv22CKmyJ6gvRQr1tPwBT3zzoa" class="btn">More About Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="About" id="about" data-aos="fade-up">
+        <div class="aboutimg" data-aos="fade-right">
+              <img src="me.jpg" alt="About Me Image" data-aos="fade-left">
+        </div>
+        <div class="abouttext" data-aos="fade-left">
+            <h2>About <span>Me</span></h2>
+            <h4>Studying Bachelor of Science in Information technology</h4>
+            <p class="fliptext">I'm currently pursuing my dream program—Bachelor of Science in Information Technology.
+                My goal is to enhance my programming skills so I can land a fulfilling job and live a 
+                life that I truly enjoy. The journey hasn't been easy. Coming from a non-IT background
+                with no exposure to programming in senior high school made the transition challenging.
+                Initially, I enrolled in BS in Accountancy, but I soon realized it wasn't the path I 
+                wanted to follow. That realization pushed me to shift into IT where I finally feel 
+                aligned with my interests and goals. Now, I'm determined to grow my skills in coding 
+                and software development. One of my biggest dreams is to create a website or a game 
+                that people will genuinely enjoy using—something creative, fun, and meaningful. Every
+                line of code I write brings me closer to that vision.</p>
+        </div>
+    </section>
+    <!-- background section -->
+    <section class="background" id="background">
+        <div class="content">
+            <div class="title"><span>Background</span></div>
+            <p>here are my educational background</p>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-graduation-cap"></i>
+                     </div>
+                    <div class="topic">Primary</div>
+                    <p>I graduated Elementary at C.P. Sta. Teresa Elementary School from the year 2010 to 2016. I studied there from Kindergarten to Grade 6</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="topic">Secondary</div>
+                    <p>I graduated Junior High at Bagumbayan National High School from the year 2016-2020. I studied there from Grade 7 to Grade 10</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="topic">Senior High</div>
+                    <p>I graduated Senior High at Saint Francis of Assisi College from the year 2021-2023. I studied there from Grade 11 to Grade 12</p>
+                </div>
+            </div>
+        </div>
+    </section>
+       <!-- Certificate section -->
+    <section class="certif" id="certificate">
+        <div class="certificate-container">
+            <h2>My Certificates</h2>
+            <p>Here are some of my achievements and certifications</p>
+            <div class="certificate-grid">
+                <!-- Certificate with image -->
+                <div class="certificate-card" data-aos="fade-up">
+                    <div class="certificate-image">
+                        <img src="certificate1.jpg" alt="Web Development Certificate" class="cert-img">
+                    </div>
+                    <h3>Sample Certificate</h3>
+                    <p>just a sample, i still dont have certificate</p>
+                    <button class="view-certificate" data-cert-id="cert1">View Certificate</button>
+                </div>
+                
+                <!-- Certificate with image -->
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="certificate-image">
+                        <img src="certificate2.jpg" alt="IT Essentials Certificate" class="cert-img">
+                    </div>
+                    <h3>Sample Certificate</h3>
+                    <p>just a sample, i still dont have certificate</p>
+                    <button class="view-certificate" data-cert-id="cert2">View Certificate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modalImage" src="/placeholder.svg" alt="Certificate">
+                </div>
+                <div class="modal-details">
+                    <h2 id="modalTitle"></h2>
+                    <div class="certificate-info">
+                        <p><strong>Issued By:</strong> <span id="modalIssuer"></span></p>
+                        <p><strong>Issue Date:</strong> <span id="modalDate"></span></p>
+                        <p><strong>Skills:</strong> <span id="modalSkills"></span></p>
+                    </div>
+                    <div class="certificate-description">
+                        <h3>Description</h3>
+                        <p id="modalDescription"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contacts sections -->
+    <section class="contact" id="contacts">
+       <div class="container">
+          <h1>Contacts</h1>
+          <p>Feel free to contact me here</p>
+          <div class="contact-icons">
+              <div class="contact-item">
+                  <i class="fa-solid fa-phone"></i>
+                  <p>09128233908</p>
+              </div>
+              <div class="contact-item">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <p>09260027637</p>
+              </div>
+              <div class="contact-item">
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>mharla.khaikhea@gmail.com</p>
+              </div>
+          </div>
+          <form target="_blank" action="https://formsubmit.co/mharla.khaikhea@gmail.com" method="POST">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                </div>
+                <div class="col">
+                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+          </form>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Hamburger menu functionality
+        document.addEventListener("DOMContentLoaded", function() {
+            const hamburger = document.querySelector(".hamburger-menu");
+            const navbar = document.querySelector(".navbar");
+
+            hamburger.addEventListener("click", function() {
+                hamburger.classList.toggle("active");
+                navbar.classList.toggle("active");
+            });
+
+            // Close menu when clicking a link
+            document.querySelectorAll(".navbar a").forEach(link => {
+                link.addEventListener("click", function() {
+                    hamburger.classList.remove("active");
+                    navbar.classList.remove("active");
+                });
+            });
+        });
+    </script>
+
+    <script src="main.js"></script>
+    <script src="certificate.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+    <script>
+    var typed = new Typed(".text", {
+    strings: ["STI student", "BSIT student", "Future Web Developer", "Future Game Developer"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
+</script>
+</body>
+</html>
+

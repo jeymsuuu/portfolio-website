@@ -1,0 +1,153 @@
+/* About section styles */
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: default;
+  padding: 60px 10%;
+  background-color: white;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+/* Text container */
+.abouttext {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+.abouttext h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #a08963;
+}
+
+.abouttext h2 span {
+  color: #654321;
+}
+
+.abouttext h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #a08963;
+  margin-bottom: 20px;
+}
+
+.abouttext p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #a08963;
+  line-height: 1.6;
+}
+
+/* Image container */
+.aboutimg {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutimg img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 100px;
+  box-shadow: 0 10px 25px #654321;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  #about {
+    padding: 60px 5%;
+  }
+
+  .abouttext h2 {
+    font-size: 32px;
+  }
+
+  .abouttext h4 {
+    font-size: 18px;
+  }
+
+  .aboutimg img {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  .abouttext {
+    padding-right: 20px;
+  }
+
+  .abouttext h2 {
+    font-size: 28px;
+  }
+
+  .abouttext p {
+    font-size: 15px;
+  }
+
+  .aboutimg img {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  #about {
+    flex-direction: column;
+    padding: 50px 5%;
+    text-align: center;
+  }
+
+  .aboutimg {
+    order: 1;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .abouttext {
+    order: 2;
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .aboutimg img {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  #about {
+    padding: 40px 5%;
+  }
+  about
+
+  .abouttext h2 {
+    font-size: 24px;
+  }
+
+  .abouttext h4 {
+    font-size: 16px;
+  }
+
+  .abouttext p {
+    font-size: 14px;
+  }
+
+  .aboutimg img {
+    max-width: 80%;
+    border-radius: 50px;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutimg img {
+    max-width: 90%;
+    border-radius: 30px;
+  }
+}
