@@ -318,6 +318,10 @@ body {
     transform: rotate(45deg) translate(-5px, -6px);
   }
 
+  .home-content {
+    padding-left: 0;
+  }
+
   .navbar {
     position: fixed;
     top: 0;
