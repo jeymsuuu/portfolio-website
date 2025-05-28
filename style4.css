@@ -1,7 +1,7 @@
 /* Certificate section styles */
 .certif {
   padding: 60px 10%;
-  background-color: white;
+  background-color: #ffedfa;
   min-height: 100vh;
 }
 
@@ -11,15 +11,15 @@
 }
 
 .certificate-container h2 {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 700;
-  color: #654321;
+  color: #be5985;
   margin-top: 100px;
 }
 
 .certificate-container p {
   font-size: 18px;
-  color: #a08963;
+  color: #c76f95;
   margin-top: 10px;
   margin-bottom: 25px;
 }

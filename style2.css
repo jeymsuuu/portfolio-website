@@ -4,10 +4,10 @@
   align-items: center;
   justify-content: space-between;
   cursor: default;
-  padding: 60px 10%;
-  background-color: white;
+  padding: 60px 5%;
+  background-color: #ffedfa;
   flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 /* Text container */
@@ -20,27 +20,27 @@
 }
 
 .abouttext h2 {
-  font-size: 36px;
-  font-weight: 800;
-  margin-bottom: 10px;
-  color: #a08963;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #f7a4de;
 }
 
 .abouttext h2 span {
-  color: #654321;
+  color: #be5985;
 }
 
 .abouttext h4 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #a08963;
+  font-size: 23px;
+  font-weight: 550;
+  color: #be5985;
   margin-bottom: 20px;
 }
 
 .abouttext p {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
-  color: #a08963;
+  color: #e969c3;
   line-height: 1.6;
 }
 
@@ -56,7 +56,7 @@
   max-width: 50%;
   height: auto;
   border-radius: 100px;
-  box-shadow: 0 10px 25px #654321;
+  box-shadow: 0 0px 25px #be5985, 0 0px 25px #be5985, 0 0px 30px #be5985;
 }
 
 /* Responsive styles */
@@ -116,7 +116,7 @@
   }
 
   .aboutimg img {
-    max-width: 60%;
+    max-width: 80%;
   }
 }
 
@@ -124,7 +124,7 @@
   #about {
     padding: 40px 5%;
   }
-  about
+
 
   .abouttext h2 {
     font-size: 24px;
@@ -141,13 +141,12 @@
   .aboutimg img {
     max-width: 80%;
     border-radius: 50px;
-    margin-top: 100px;
   }
 }
 
 @media (max-width: 480px) {
   .aboutimg img {
-    max-width: 90%;
+    max-width: 50%;
     border-radius: 30px;
   }
 }
