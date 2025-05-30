@@ -29,7 +29,7 @@
   padding-bottom: 10px;
 }
 
-.background .title span::after {
+.background .span::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -93,7 +93,7 @@
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .background {
     padding: 40px 5%;
   }
@@ -102,4 +102,21 @@
     width: 100%;
     margin-bottom: 20px;
   }
+  .background .title{
+    font-size: 30px;
+  }
 }
+@media (max-width: 780px) {
+  .background {
+    padding: 40px 5%;
+  }
+
+  .background .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .background .title{
+    font-size: 20px;
+  }
+}
+
