@@ -3,11 +3,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  cursor: default;
+    cursor: default;
   padding: 60px 5%;
   background-color: #ffedfa;
   flex-wrap: wrap;
-  min-height: 90dvh;
+  min-height: 100dvh;
 }
 
 /* Text container */
@@ -15,7 +15,8 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
+  text-align: center;
 
 }
 
@@ -44,19 +45,41 @@
   line-height: 1.6;
 }
 
-/* Image container */
-.aboutimg {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.skills {
+  text-align: center;
+  margin-top: 50px;
 }
 
-.aboutimg img {
-  max-width: 50%;
-  height: auto;
-  border-radius: 100px;
-  box-shadow: 0 0px 25px #be5985, 0 0px 25px #be5985, 0 0px 30px #be5985;
+.skills h4 {
+  font-size:  35px;
+  font-weight: bold;
+  margin-bottom: 20px
+}
+
+.skill-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-tags p {
+  font-family: 'poppins', sans-serif;
+  outline: 2px solid #be5985;
+  padding: 9px 25px;
+  border-radius: 30px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.skill-tags p:hover {
+  color: #f7a4de;
+  outline: 2px solid #be5985;
+  border-radius: 40px;
+  background: #be5985;
+  box-shadow:  0 0 20px #be5985,
+  0 0 20px #be5985, 0 0 25px #be5985;
+
 }
 
 /* Responsive styles */
@@ -66,15 +89,14 @@
   }
 
   .abouttext h2 {
-    font-size: 32px;
+    font-size: 50px;
   }
 
   .abouttext h4 {
     font-size: 18px;
   }
-
-  .aboutimg img {
-    max-width: 60%;
+  .skills h4 {
+    font-size: 30px;
   }
 }
 
@@ -84,16 +106,13 @@
   }
 
   .abouttext h2 {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .abouttext p {
     font-size: 15px;
   }
 
-  .aboutimg img {
-    max-width: 70%;
-  }
 }
 
 @media (max-width: 768px) {
@@ -102,12 +121,6 @@
     padding: 50px 5%;
     text-align: center;
   }
-
-  .aboutimg {
-    order: 0;
-    width: 70dvw;
-  }
-
   .abouttext {
     order: 0;
     align-items: center;
@@ -116,9 +129,7 @@
     font-size: 50px;
   }
 
-  .aboutimg img {
-    max-width: 80%;
-  }
+
 }
 
 @media (max-width: 576px) {
@@ -128,7 +139,7 @@
 
 
   .abouttext h2 {
-    font-size: 24px;
+    font-size: 27px;
   }
 
   .abouttext h4 {
@@ -149,5 +160,8 @@
   .aboutimg img {
     max-width: 50%;
     border-radius: 30px;
+  }
+  .abouttext h2 {
+    font-size: 30px;
   }
 }
