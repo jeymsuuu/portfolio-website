@@ -546,8 +546,11 @@ body {
   border-radius: 40px;
   font-size: 13px !important;     /* Change text size */
   padding: 5px 10px;  /* Change button size */
- 
+  }
 }
 
-  
+@media (max-width: 480px) {
+  .profile-pic{
+    max-width: 30dvw;
+  }
 }

@@ -154,6 +154,9 @@
     max-width: 80%;
     border-radius: 50px;
   }
+  .skill-tags p{
+    font-size: 9px;
+  }
 }
 
 @media (max-width: 480px) {

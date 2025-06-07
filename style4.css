@@ -207,6 +207,14 @@
 }
 
 /* Media Queries */
+@media (max-width: 1200px) {
+  .certificate-card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+
+}
 @media (max-width: 768px) {
   .certif {
     padding: 40px 5%;
@@ -214,7 +222,7 @@
 
   .certificate-card {
     width: 100%;
-    max-width: 350px;
+    max-width: 3500px;
   }
 
   .modal-content {

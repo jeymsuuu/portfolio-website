@@ -111,6 +111,18 @@ textarea.form-control {
 
   .form-row {
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
+  }
+}
+@media (max-width: 568px) {
+   .contact h1{
+    font-size: 30px;
+   }
+   .contact p{
+    font-size: 15px;
+   }
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
   }
 }
