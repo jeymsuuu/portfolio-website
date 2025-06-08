@@ -125,4 +125,81 @@ textarea.form-control {
     flex-direction: column;
     gap: 10px;
   }
+
 }
+@media (max-width: 368px) {
+  .contact .container {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .contact h1 {
+    font-size: 20px;
+  }
+
+  .contact p {
+    font-size: 12px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .contact-item i {
+    font-size: 16px;
+  }
+
+  .form-control {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  .container {
+  padding: 0 ;
+    }
+
+  .contact h1 {
+    font-size: 15px;
+  }
+
+  .contact p,
+  .contact-icons p {
+    font-size: 10px;
+  }
+
+  .contact-icons i {
+    font-size: 14px;
+  }
+
+  .form-control {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .contact-icons {
+    gap: 10px;
+  }
+
+  .contact-icons i {
+    font-size: 18px;
+  }
+
+  .contact-icons p {
+    font-size: 12px;
+  }
+}
+
